@@ -33,7 +33,7 @@ const displayAllTasks = () => {
 
   tasks.forEach((task, index) => {
     let li = document.createElement("li");
-    li.className = "todo-item";
+    li.className = "task-item";
 
     li.innerHTML = `
       <span class="todo-text">${task}</span>
